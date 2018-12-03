@@ -4,7 +4,6 @@ const seenFrequencies = new Set()
 let answer
 let frequency = 0
 const steps = input.split('\n')
-  .filter(step =>step.length > 0)
  
 while(!answer) {
   for (let i= 0; i < steps.length; i++) {
