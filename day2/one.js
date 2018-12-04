@@ -11,7 +11,7 @@ for (let i = 0; i < boxes.length; i++) {
   for (let j = 0; j < box.length; j++) {
     const char = box[j]
     if (charMap[char]) {
-      charMap[char] = charMap[char]++
+      charMap[char] = ++charMap[char]
     } else {
       charMap[char] = 1
     }
